@@ -10,8 +10,8 @@ ghiceasca. Acestea comunica prin fisierele feedback.txt si
 cuvantOptim.txt.
 
 Ghicitor.py calculeaza prin functia "incercare" cuvantul optim si
-il scrie in fisierul cuvandOptim.txt. Wordle.py citeste incercarea si o 
-interpreteaza, punand in out.txt un string format din 5 caractere
+il scrie in fisierul cuvantOptim.txt. Wordle.py citeste incercarea si o 
+interpreteaza, punand in feedback.txt un string format din 5 caractere
 din multimea {0, 1, 2} (0-gri, 1-galben, 2-verde).
 
 Ghicitor.py va interpreta, prin functia "interpretare", acest 
@@ -22,8 +22,8 @@ o litera care se afla in cuvantul de ghicit si cele care nu
 contin o anumita litera pe o anumita pozitie. 
 
 In functie de noua lista, Ghicitor.py va alege noul cuvant optim.
-Algoritmul prin care Wordle.py incearca sa gaseasca cuvantul 
-optim, care se afla in functia "incercare", se bazeaza pe entropia
+Algoritmul, care se afla in functia "incercare", prin care Ghicitor.py  
+incearca sa gaseasca cuvantul optim, se bazeaza pe entropia
 lui Shannon. Astfel, pentru fiecare cuvant din lista, algoritmul 
 calculeaza probabilitatea ca acel cuvant sa returneze un anumit 
 feedback, facand acest lucru pentru toate feedback-urile
