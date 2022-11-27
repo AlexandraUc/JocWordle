@@ -10,9 +10,6 @@ cuvinte = cuvinte.readlines()
 output = open('feedback.txt', 'w')
 n = len(cuvinte)
 
-# deschidem fisierul in care punem solutiile
-solutii = open('solutii.txt', 'w')
-
 for i in range(len(cuvinte)):
     cuvinte[i] = cuvinte[i].strip()
 
