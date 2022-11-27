@@ -20,7 +20,6 @@ initializareFrecv()
 cuv = random.choice(cuvinte)
 print("cuvantul de ghicit este",cuv)
 
-
 while True:
     incercare()
     # citim incercarea ghicitorului
