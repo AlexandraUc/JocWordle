@@ -13,14 +13,11 @@ n = len(cuvinte)
 for i in range(len(cuvinte)):
     cuvinte[i] = cuvinte[i].strip()
 
-
 initializare()
-
 
 # alegem cuvantul de ghicit
 cuv = random.choice(cuvinte)
 print("cuvantul de ghicit este",cuv)
-
 
 while True:
     incercare()
