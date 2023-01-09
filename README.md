@@ -1,6 +1,6 @@
 # jocWordle  
 Echipa Tom si Jerry  
-Membrii  
+Membrii echipei
 Hodivoianu Anamaria - grupa 132  
 Uceanu Irina Alexandra - grupa 132
 
@@ -50,10 +50,9 @@ In momentul in care cuvantul ales de Ghicitor.py coincide cu cel
 ales de Wordle.py jocul se va termina si mesajul "Ati ghicit
 cuvantul." va fi afisat in fisierul feedback.txt.
 
-Numarul mediu de incercari este 4.32836.
+Numarul mediu de incercari este 4.3737.
 
-In fisierul solutii.txt se afla solutiile gasite pentru fiecare
-cuvant, impreuna cu numarul de incercari.
+In fisierul solutii.txt se afla solutiile gasite pentru fiecare cuvant.
 
 Referinte:  
 https://markmliu.medium.com/what-in-the-wordle-5dc5ed94fe2  
